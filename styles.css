@@ -1,0 +1,183 @@
+/* General styling */
+body {
+    font-family: "Comic Sans MS", "Arial", sans-serif;
+    background-color: #00979D; /* Microbit teal */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Card-style boxes (login and final) */
+.card {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 100px auto;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card label {
+    display: block;
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.card input, 
+.card select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Radio Buttons */
+.radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Submit Button */
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #00A4EF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #007ACC;
+}
+
+/* Hide Game & Final Card Initially */
+.hidden {
+    display: none;
+}
+
+/* Game Container */
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Question Box */
+.question-box {
+    width: 80%;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: #FFD700; /* Golden background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Image Box */
+.image-box {
+    width: 30%;
+    max-width: 300px;
+    border: 5px solid black;
+    background-color: #FF4500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+}
+
+/* Answers */
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 40%;
+    max-width: 400px;
+}
+
+.answer-btn {
+    width: 100%;
+    min-height: 60px;
+    font-size: 22px;
+    font-weight: bold;
+    border: 5px solid black;
+    background-color: #00A4EF;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+/* Highlight the chosen answer */
+.answer-btn.selected {
+    background-color: #007ACC;
+}
+
+/* Button hover effect */
+.answer-btn:hover {
+    background-color: #007ACC;
+}
+
+/* Navigation buttons container */
+.nav-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Navigation Buttons (Back / Next) */
+.nav-btn {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border: 5px solid black;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.back-btn {
+    background-color: #D32F2F; /* Red */
+}
+
+.next-btn {
+    background-color: #388E3C; /* Green */
+}
+
+.nav-btn:hover {
+    filter: brightness(90%);
+}
+
+/* Score Box in nav-container and final score */
+.score-box {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    color: black;
+    margin: 0 20px;
+}
