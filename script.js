@@ -263,7 +263,7 @@ document.addEventListener("DOMContentLoaded", () => {
       };
   
       // Send a POST request using fetch to your deployed Apps Script endpoint.
-      fetch("https://script.google.com/macros/s/AKfycbwHOU03e5pm1NsTzS-JuBklkNi5Bdn3wEYz6_T4UNFgWFABLaSf5lQMquYPNfACYPFa/exec", {
+      fetch("https://script.google.com/macros/s/AKfycbzrXjgIqz0xt0AoDby4JV_-0n3VxngVbXLVBssyRbcF5d5LhnLU-NJr586AYla2JDCz/exec", {
         method: "POST",
         mode: "no-cors", // use no-cors if you don't need to handle the response
         headers: {
