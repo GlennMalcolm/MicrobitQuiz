@@ -21,6 +21,12 @@ body {
     margin-bottom: 15px;
 }
 
+.card input[type="text"],
+.card select {
+  width: 100%;
+  box-sizing: border-box; /* Ensures borders/padding don't shrink the visible width */
+}
+
 .card label {
     display: block;
     margin: 5px 0;
