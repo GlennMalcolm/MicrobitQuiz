@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microbit Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Login Card -->
+  <div id="login-card" class="card">
+    <h2>Enter Your Details</h2>
+    <form id="login-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="class">Select Your Class:</label>
+      <select id="class">
+        <option value="Class 1">Class 1</option>
+        <option value="Class 2">Class 2</option>
+        <option value="Class 3">Class 3</option>
+        <option value="Class 4">Class 4</option>
+      </select>
+
+      <label>Gender:</label>
+      <div class="radio-group">
+        <input type="radio" id="boy" name="gender" value="Boy" required>
+        <label for="boy">Boy</label>
+        <input type="radio" id="girl" name="gender" value="Girl">
+        <label for="girl">Girl</label>
+      </div>
+
+      <label for="birth-month">Birth Month:</label>
+      <select id="birth-month">
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+      </select>
+
+      <button type="submit" class="submit-btn">Start Quiz</button>
+    </form>
+  </div>
+
+  <!-- Quiz Content (Hidden Initially) -->
+  <div id="game-container" class="hidden">
+    <!-- Question text -->
+    <div class="question-box" id="question-box">Question will go here</div>
+    
+    <!-- Main area for image and answers -->
+    <div class="game-container">
+      <div class="image-box">
+        <img 
+          src="https://microbit-spy.co.uk/wp-content/uploads/2015/07/micro_bit_final_design_back.png" 
+          alt="Microbit Back Design"
+        >
+      </div>
+      <div class="answers" id="answers"></div>
+    </div>
+
+    <!-- Navigation buttons + Running Score -->
+    <div class="nav-container">
+      <button id="back-btn" class="nav-btn back-btn">Back</button>
+      <div id="score-box" class="score-box">Score: 0</div>
+      <button id="next-btn" class="nav-btn next-btn">Next</button>
+    </div>
+  </div>
+
+  <!-- Final Card (Hidden Initially) -->
+  <div id="final-card" class="card hidden">
+    <h2>Congratulations!</h2>
+    <p>You have completed the quiz!</p>
+    <div id="final-score-box" class="score-box">Your score is: 0</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
