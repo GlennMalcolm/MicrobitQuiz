@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       question: "How do you turn the Microbit on when it’s not connected to a computer?",
       type: "mcq",
-      image: "https://raw.githubusercontent.com/GlennMalcolm/MicrobitQuiz/refs/heads/main/Question_3_Micro_Bit_Battery.jpg",
+      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_3_Micro_Bit_Battery.jpg?raw=true",
       answers: ["Use a battery pack", "Press the A button", "Shake it"],
       correctIndex: 0
     },
