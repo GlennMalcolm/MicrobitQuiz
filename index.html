@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
   <!-- Login Card -->
   <div id="login-card" class="card">
     <h2>Enter Your Details</h2>
@@ -17,10 +16,10 @@
 
       <label for="class">Select Your Class:</label>
       <select id="class">
-        <option value="Class 1">Year 4A</option>
-        <option value="Class 2">Year 4F</option>
-        <option value="Class 3">Year 4J</option>
-        <option value="Class 4">Year 4M</option>
+        <option value="Year 4A">Year 4A</option>
+        <option value="Year 4F">Year 4F</option>
+        <option value="Year 4J">Year 4J</option>
+        <option value="Year 4M">Year 4M</option>
       </select>
 
       <label>Gender:</label>
@@ -51,23 +50,20 @@
     </form>
   </div>
 
-  <!-- Quiz Content (Hidden Initially) -->
+  <!-- Quiz Content -->
   <div id="game-container" class="hidden">
-    <!-- Question text -->
+    <!-- Question Box -->
     <div class="question-box" id="question-box">Question will go here</div>
     
     <!-- Main area for image and answers -->
     <div class="game-container">
       <div class="image-box">
-        <img 
-          src="https://microbit-spy.co.uk/wp-content/uploads/2015/07/micro_bit_final_design_back.png" 
-          alt="Microbit Back Design"
-        >
+        <img id="question-image" src="https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/default.png?raw=true" alt="Question Image">
       </div>
       <div class="answers" id="answers"></div>
     </div>
 
-    <!-- Navigation buttons + Running Score -->
+    <!-- Navigation buttons and running score -->
     <div class="nav-container">
       <button id="back-btn" class="nav-btn back-btn">Back</button>
       <div id="score-box" class="score-box">Score: 0</div>
@@ -75,7 +71,7 @@
     </div>
   </div>
 
-  <!-- Final Card (Hidden Initially) -->
+  <!-- Final Card -->
   <div id="final-card" class="card hidden">
     <h2>Congratulations!</h2>
     <p>You have completed the quiz!</p>
