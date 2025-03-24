@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       question: "How does the Microbit know when it’s moving?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_11_Makecode_Accelerometer.png?raw=true",
+      image: "https://raw.githubusercontent.com/GlennMalcolm/MicrobitQuiz/refs/heads/main/Question_11_Microbit_Accelerometer.webp",
       answers: ["It has an accelerometer", "It listens for footsteps", "It watches with a camera"],
       correctIndex: 0
     },
