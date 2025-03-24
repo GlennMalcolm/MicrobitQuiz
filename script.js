@@ -42,42 +42,42 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       question: "What does the Microbit use to know when you press a button?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_4_Input_Sensor.png?raw=true",
+      image: "https://raw.githubusercontent.com/GlennMalcolm/MicrobitQuiz/refs/heads/main/Question_4_Microbit_Input.webp",
       answers: ["An input sensor", "A camera", "The LED grid"],
       correctIndex: 0
     },
     {
       question: "How does the Microbit know when it is tilted?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_5_Accelerometer.png?raw=true",
+      image: "https://raw.githubusercontent.com/GlennMalcolm/MicrobitQuiz/refs/heads/main/Question_5_Microbit_Accelerometer.webp",
       answers: ["It has a tilt sensor (accelerometer)", "It has wheels", "It has a camera"],
       correctIndex: 0
     },
     {
       question: "What is the name of the coding tool we use to program the Microbit?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_6_MakeCode_tool.png?raw=true",
+      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_6_Micro_Bit_Makecode.jpg?raw=true",
       answers: ["PowerPoint", "MakeCode", "Photoshop"],
       correctIndex: 1
     },
     {
       question: "What does an 'if' block do in coding?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_7_If_block.png?raw=true",
+      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_7_Makecode_IF_Statement.jpg?raw=true",
       answers: ["It makes a choice", "It makes the Microbit sleep", "It makes the Microbit talk"],
       correctIndex: 0
     },
     {
       question: "What happens if we don’t give the Microbit any code?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_8_No_code.png?raw=true",
+      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_8_Makecode_No_Code.jpg?raw=true",
       answers: ["It does nothing", "It makes a random decision", "It turns itself off"],
       correctIndex: 0
     },
     {
       question: "What kind of coding blocks make something repeat over and over?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_9_Makecode_loop.png?raw=true",
+      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_9_Makecode_repeat%20loop.png?raw=true",
       answers: ["A loop", "A button", "A battery"],
       correctIndex: 0
     },
@@ -105,14 +105,14 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       question: "What happens when we shake the Microbit?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_13_Makecode_Shake.png?raw=true",
+      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_13_Makecode_sense.png?raw=true",
       answers: ["It can react, like showing an animation or rolling a dice", "It makes a sound", "It turns off"],
       correctIndex: 0
     },
     {
       question: "Which of these is NOT something the Microbit can sense?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_14_Makecode_Light.png?raw=true",
+      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_14_Makecode_LED.gif?raw=true",
       answers: ["Light", "Smell", "Motion"],
       correctIndex: 1
     },
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       question: "How can we make the Microbit play music?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_16_More_Bit_Buzzer.webp?raw=true",
+      image: "https://raw.githubusercontent.com/GlennMalcolm/MicrobitQuiz/refs/heads/main/Question_15_Microbit_speaker.webp",
       answers: ["Connect a speaker or buzzer and use code", "Press both buttons together", "Shake it"],
       correctIndex: 0
     },
@@ -140,14 +140,14 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       question: "What should you do if your Microbit doesn’t work?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_18_Makecode_Debugging.png?raw=true",
+      image: "https://raw.githubusercontent.com/GlennMalcolm/MicrobitQuiz/refs/heads/main/Question_18_Makecode_check.jpg",
       answers: ["Check the battery, code, and connections", "Shake it harder", "Buy a new one"],
       correctIndex: 0
     },
     {
       question: "Why do we test our Microbit code before using it?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_19_Makecode_Testing.png?raw=true",
+      image: "https://raw.githubusercontent.com/GlennMalcolm/MicrobitQuiz/refs/heads/main/Question_10_Makecode_A_Button.jpg",
       answers: ["To see if it explodes", "To check if it works correctly", "To make it faster"],
       correctIndex: 1
     },
