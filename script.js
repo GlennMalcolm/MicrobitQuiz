@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       question: "Which of these sensors is NOT on the Microbit?",
       type: "mcq",
-      image: "https://raw=true.github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_1_Heat_Sound_Lightning.png",
+      image: "https://raw.githubusercontent.com/GlennMalcolm/MicrobitQuiz/refs/heads/main/Question_13_Makecode_sense.png",
       answers: ["Heat sensor", "Sound sensor", "Lightning sensor"],
       correctIndex: 2
     },
