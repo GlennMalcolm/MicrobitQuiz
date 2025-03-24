@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       question: "Why do we test our Microbit code before using it?",
       type: "mcq",
-      image: "https://raw.githubusercontent.com/GlennMalcolm/MicrobitQuiz/refs/heads/main/Question_10_Makecode_A_Button.jpg",
+      image: "https://raw.githubusercontent.com/GlennMalcolm/MicrobitQuiz/refs/heads/main/Question_20_Makecode_code.png",
       answers: ["To see if it explodes", "To check if it works correctly", "To make it faster"],
       correctIndex: 1
     },
