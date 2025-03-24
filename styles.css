@@ -1,7 +1,7 @@
 /* General styling */
 body {
     font-family: "Comic Sans MS", "Arial", sans-serif;
-    background-color: #00979D; /* Microbit teal */
+    background-color: #00979D;
     text-align: center;
     padding: 20px;
 }
@@ -24,7 +24,7 @@ body {
 .card input[type="text"],
 .card select {
   width: 100%;
-  box-sizing: border-box; /* Ensures borders/padding don't shrink the visible width */
+  box-sizing: border-box;
 }
 
 .card label {
@@ -35,7 +35,6 @@ body {
 
 .card input, 
 .card select {
-    width: 100%;
     padding: 8px;
     margin-bottom: 10px;
     border: 2px solid #333;
@@ -91,7 +90,7 @@ body {
     font-weight: bold;
     border: 5px solid black;
     border-radius: 15px;
-    background-color: #FFD700; /* Golden background */
+    background-color: #FFD700;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,7 +113,7 @@ body {
     height: auto;
 }
 
-/* Answers */
+/* Answers container */
 .answers {
     display: flex;
     flex-direction: column;
@@ -135,12 +134,10 @@ body {
     border-radius: 15px;
 }
 
-/* Highlight the chosen answer */
 .answer-btn.selected {
     background-color: #007ACC;
 }
 
-/* Button hover effect */
 .answer-btn:hover {
     background-color: #007ACC;
 }
@@ -153,7 +150,6 @@ body {
     align-items: center;
 }
 
-/* Navigation Buttons (Back / Next) */
 .nav-btn {
     font-size: 24px;
     font-weight: bold;
@@ -165,18 +161,18 @@ body {
 }
 
 .back-btn {
-    background-color: #D32F2F; /* Red */
+    background-color: #D32F2F;
 }
 
 .next-btn {
-    background-color: #388E3C; /* Green */
+    background-color: #388E3C;
 }
 
 .nav-btn:hover {
     filter: brightness(90%);
 }
 
-/* Score Box in nav-container and final score */
+/* Score Box styling */
 .score-box {
     display: inline-block;
     padding: 10px 20px;
@@ -186,4 +182,17 @@ body {
     border-radius: 10px;
     color: black;
     margin: 0 20px;
+}
+
+/* Text-based answer styling */
+.text-answer {
+    width: 100%;
+    min-height: 300px;  /* Start at same height as image box */
+    font-size: 22px;
+    font-family: inherit;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    resize: vertical;
 }
