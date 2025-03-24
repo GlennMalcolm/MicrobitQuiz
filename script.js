@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       question: "Which of these is an output of the Microbit?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_15_More_Bit_Battery.png?raw=true",
+      image: "https://raw.githubusercontent.com/GlennMalcolm/MicrobitQuiz/refs/heads/main/Question_10_Makecode_animation.gif",
       answers: ["LED lights", "The A button", "The battery"],
       correctIndex: 0
     },
