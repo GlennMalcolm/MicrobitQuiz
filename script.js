@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       question: "If your Microbit doesn’t react when you press a button, what could be wrong?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_20_Makecode_Missing_Code.png?raw=true",
+      image: "https://raw.githubusercontent.com/GlennMalcolm/MicrobitQuiz/refs/heads/main/Question_20_Makecode_code.png",
       answers: ["The code might be missing something", "The Microbit is scared", "The battery is too full"],
       correctIndex: 0
     },
