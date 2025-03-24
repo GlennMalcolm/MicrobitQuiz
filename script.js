@@ -160,9 +160,9 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     // Question 21: Text-based question
     {
-      question: "Question 21: Please describe your experience with the quiz and any suggestions you have.",
+      question: "Question 21: Please describe what this Makecode set of code blocks is telling the Microbit to do. Use as much technical language as you can",
       type: "text",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/default.png?raw=true"
+      image: "https://raw.githubusercontent.com/GlennMalcolm/MicrobitQuiz/refs/heads/main/Question_21_What_does_this_code_do.png"
     }
   ];
 
