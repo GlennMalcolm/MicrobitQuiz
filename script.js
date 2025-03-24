@@ -21,21 +21,21 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       question: "Which of these sensors is NOT on the Microbit?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_1_Heat_Sound_Lightning.png?raw=true",
+      image: "https://raw=true.github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_1_Heat_Sound_Lightning.png",
       answers: ["Heat sensor", "Sound sensor", "Lightning sensor"],
       correctIndex: 2
     },
     {
       question: "What does the Microbit use to show pictures and numbers?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_2_Makecode_LED_lights.png?raw=true",
+      image: "https://raw.githubusercontent.com/GlennMalcolm/MicrobitQuiz/refs/heads/main/Question_2_Microbit_LED.webp",
       answers: ["A screen", "LED lights", "A speaker"],
       correctIndex: 1
     },
     {
       question: "How do you turn the Microbit on when it’s not connected to a computer?",
       type: "mcq",
-      image: "https://github.com/GlennMalcolm/MicrobitQuiz/blob/main/Question_3_Battery_Pack.png?raw=true",
+      image: "https://raw.githubusercontent.com/GlennMalcolm/MicrobitQuiz/refs/heads/main/Question_3_Micro_Bit_Battery.jpg",
       answers: ["Use a battery pack", "Press the A button", "Shake it"],
       correctIndex: 0
     },
