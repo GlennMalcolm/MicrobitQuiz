@@ -260,7 +260,7 @@ document.addEventListener("DOMContentLoaded", () => {
       questions: questions
     };
 
-    fetch("https://script.google.com/macros/s/yourAppsScriptID/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbwBwIyMme4jQXJ7akz522s6ov5smHrSJEJKwGtvrSrTramij4THzQ-bM7UIH0DRJYcj/exec", {
       method: "POST",
       mode: "no-cors",
       headers: { "Content-Type": "application/json" },
