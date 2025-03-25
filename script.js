@@ -260,7 +260,7 @@ document.addEventListener("DOMContentLoaded", () => {
       questions: questions
     };
 
-    fetch("https://script.google.com/macros/s/AKfycbwBwIyMme4jQXJ7akz522s6ov5smHrSJEJKwGtvrSrTramij4THzQ-bM7UIH0DRJYcj/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbz8yhbq2Dl6p9KU336dZu43E9-hb0w6s6eZKXxAOxf39EvaLfRVGY39WB0Wmpf_sYVG/exec", {
       method: "POST",
       mode: "no-cors",
       headers: { "Content-Type": "application/json" },
